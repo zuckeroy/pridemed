@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrideMed Health - LGBTQ+ Friendly Doctors Worldwide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f8fc;
+            color: #333;
+        }
+        header {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4a148c;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #6a1b9a;
+        }
+        footer {
+            background-color: #4a148c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #6a1b9a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #4a0072;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PrideMed Health</h1>
+        <p>Your Guide to LGBTQ+ Friendly Healthcare Around the World</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#find">Find Doctors</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About PrideMed Health</h2>
+            <p>PrideMed Health is committed to helping LGBTQ+ travelers access safe, inclusive medical care no matter where they are. Our network of accredited, LGBTQ+ friendly doctors spans the globe, providing trusted healthcare services in a safe space. Every provider in our network has been thoroughly vetted and approved by PrideMed.</p>
+        </section>
+
+        <section id="find" class="section">
+            <h2>Find LGBTQ+ Friendly Doctors</h2>
+            <p>Use our global directory to locate PrideMed-accredited doctors wherever you travel. Simply select your destination, and we'll connect you with a provider who understands your unique healthcare needs.</p>
+            <a href="#" class="button">Search Doctors</a>
+        </section>
+
+        <section id="testimonials" class="section">
+            <h2>What Our Users Say</h2>
+            <p><em>"While traveling abroad, PrideMed Health helped me find a supportive doctor when I needed it most. It made all the difference in my trip."</em> - Taylor L.</p>
+            <p><em>"Knowing I can rely on PrideMed-approved providers gives me peace of mind wherever I go."</em> - Chris R.</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have questions or need assistance, our team is here to help. Reach out anytime!</p>
+            <p>Email: <a href="mailto:support@pridemedhealth.org">support@pridemedhealth.org</a></p>
+            <p>Phone: +123 456 7890</p>
+            <a href="mailto:support@pridemedhealth.org" class="button">Get in Touch</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 PrideMed Health. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
